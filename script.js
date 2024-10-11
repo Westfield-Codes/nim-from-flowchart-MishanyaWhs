@@ -32,7 +32,19 @@ function main(){
 
 /* playNim */
 function playNim(){
-    alert("You played Nim");
+    count = 0
+    while (count < 21){
+        userTurn();
+        if ( count < 20 ){
+            cpuTurn();
+        }
+    else alert("U lose");
+    userTurn();
+    if ( count < 20 ) {
+        cpuTurn();
+    }
+    else if (count = 20) alert("You win");
+    }
 }
 
 /** 
@@ -56,4 +68,3 @@ function cpuTurn(){
     count += 1;
     alert("I counted 1. count is now " + count);
 }
- 
