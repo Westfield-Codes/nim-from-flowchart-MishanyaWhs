@@ -9,7 +9,7 @@ var count = 0;
 /** 
  * Main * 
  * @param parameter1 Description of the first parameter. 
- * @return Description of the return value. 
+ * @return none
  */
 
 /* Main */
@@ -56,3 +56,4 @@ function cpuTurn(){
     count += 1;
     alert("I counted 1. count is now " + count);
 }
+ 
